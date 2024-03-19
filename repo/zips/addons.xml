@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.example" name="Moj Kodi" version="1.0" provider-name="blazic016">
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.example" name="Moj Kodi" version="1.0" provider-name="blazic016">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/blazic016/mykodi/master/repo/zips/addons.xml</info>
@@ -10,11 +10,11 @@
     <extension point="xbmc.addon.metadata">
         <summary>Testiranje</summary>
         <description>Samo za testiranje</description>
-        <disclaimer></disclaimer>
+        <disclaimer />
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>
+</addon></addons>
